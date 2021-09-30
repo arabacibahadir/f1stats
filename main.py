@@ -17,7 +17,7 @@ def main():
     telemetry_driver1 = fastest_driver1.get_car_data().add_distance()
     telemetry_driver2 = fastest_driver2.get_car_data().add_distance()
 
-    def track():
+    def track():  # Track layout - Fastest Lap Gear Shift Visualization
         lap = laps.pick_fastest()
         tel = lap.get_telemetry()
         x = np.array(tel['X'].values)
@@ -41,12 +41,15 @@ def main():
         lap = laps.pick_fastest()
         plt.text(5000, 5000, str(lap.get_weather_data()), style='italic', bbox={
             'facecolor': 'green', 'alpha': 0.5, 'pad': 10})
+        weather_data = laps.get_weather_data()
+        weather_data.reset_index(drop=True)
 
-    def gas(*args):
-        fig, ax = plt.subplots(3, figsize=(8, 8))
+    def gas(*args):  # Car data
+
+        data = ['RPM', 'Speed', 'Throttle', 'Brake', 'nGear', 'DRS']
+        fig, ax = plt.subplots(len(data), figsize=(8, 8))
         fig.suptitle("Fastest Race Lap Telemetry Comparison")
-        data = ['Speed', 'Throttle', 'Brake']
-        for i in range(3):
+        for i in range(len(data)):
             ax[i].plot(telemetry_driver1['Distance'], telemetry_driver1[data[i]], label=driver1)
             ax[i].plot(telemetry_driver2['Distance'], telemetry_driver2[data[i]], label=driver2)
             ax[i].set(ylabel=data[i])
@@ -54,9 +57,9 @@ def main():
         for a in ax.flat:
             a.label_outer()
         ax[0].legend()
-        fig.subplots_adjust(left=0.08, bottom=0.04, right=1, top=1, wspace=None, hspace=None)
+        fig.subplots_adjust(left=0.095, bottom=0.04, right=1, top=0.96, wspace=None, hspace=None)
 
-    def compare(*args):
+    def compare(*args):  # Two drivers comparison
         fig, ax = plt.subplots()
         ax.plot(laps_driver1['LapNumber'], laps_driver1['LapTime'], color='red')
         ax.plot(laps_driver2['LapNumber'], laps_driver2['LapTime'], color='cyan')
@@ -66,7 +69,7 @@ def main():
         plt.legend()
         fig.subplots_adjust(right=1, top=0.9)
 
-    def qualifying():
+    def qualifying():  # Fastest lap
 
         ff1.plotting.setup_mpl(mpl_timedelta_support=True, color_scheme=None, misc_mpl_mods=False)
         drivers = pd.unique(laps['Driver'])
@@ -93,14 +96,11 @@ def main():
         plt.suptitle(f"{race.weekend.name} {race.weekend.year} Qualifying\n"
                      f"Fastest Lap: {lap_time_string} ({pole_lap['Driver']})")
 
-
-
     track()
     gas()
     compare(laps_driver1, laps_driver2)
     qualifying()
     plt.show()
-    # add weather
 
 
 if __name__ == '__main__':
