@@ -96,6 +96,7 @@ def main():
     qualifying()
     plt.show()
     # add weather
+    # more stats
 
 
 if __name__ == '__main__':
