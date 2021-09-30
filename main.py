@@ -38,6 +38,9 @@ def main():
         cbar.set_ticks(np.arange(1.5, 9.5))
         cbar.set_ticklabels(np.arange(1, 9))
         plt.suptitle(f"Fastest Lap Gear Shift Visualization")
+        lap = laps.pick_fastest()
+        plt.text(5000, 5000, str(lap.get_weather_data()), style='italic', bbox={
+            'facecolor': 'green', 'alpha': 0.5, 'pad': 10})
 
     def gas(*args):
         fig, ax = plt.subplots(3, figsize=(8, 8))
@@ -90,14 +93,15 @@ def main():
         plt.suptitle(f"{race.weekend.name} {race.weekend.year} Qualifying\n"
                      f"Fastest Lap: {lap_time_string} ({pole_lap['Driver']})")
 
+
+
     track()
     gas()
     compare(laps_driver1, laps_driver2)
     qualifying()
     plt.show()
     # add weather
-    # more stats
-    # ..
+
 
 if __name__ == '__main__':
     driver1 = 'BOT'
