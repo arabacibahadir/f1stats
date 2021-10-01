@@ -37,11 +37,14 @@ D_LOOKUP = [[44, 'HAM', 'Mercedes'], [77, 'BOT', 'Mercedes'],
 
 The Fast-F1 developer recommends using **cache**. From his own [document](https://theoehrly.github.io/Fast-F1/examples/index.html#example-plot): 
 
+
 > It is not necessary to enable the usage of the cache but it is **highly recommended**. Simply provide the path to some empty folder on **your** system. Using the cache will greatly speed up loading of the data.
+
 
 ```bash
 ff1.Cache.enable_cache(r'path/to/folder/for/cache') # replace with your cache directory
 ```
+
 
 A fuzzy match is performed to find the most likely event for the provided name (e.g. 'Bahrain').
 
@@ -72,6 +75,14 @@ def qualifying():  # Fastest lap
 Data is applicable for the 2018 to 2021 seasons. Fast-F1 uses data from F1's live timing service.
 
 ## Screenshots
+
+![fastest](https://user-images.githubusercontent.com/32988819/135608252-404b7c4b-e304-4591-a1e4-f0042fd7983d.png)
+
+![qualy](https://user-images.githubusercontent.com/32988819/135608418-ce924e44-dc5c-4dfc-915c-96f36f840ac5.png)
+
+![racelaps](https://user-images.githubusercontent.com/32988819/135608426-0dea76fd-4854-409d-be47-6ccba7a8d26f.png)
+
+![telemetrycomp](https://user-images.githubusercontent.com/32988819/135608433-cb866ddf-7c2f-413e-8c8c-d6aece8c12f0.png)
 
 
 ## Contributing
