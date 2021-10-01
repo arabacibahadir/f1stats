@@ -2,6 +2,9 @@
 **f1stats** is using [Fast-F1](https://github.com/theOehrly/Fast-F1#fast-f1 ) core for race and driver analysys. The [Fast-F1](https://github.com/theOehrly/Fast-F1#fast-f1 ) core is a collection of functions and data objects for accessing
 and analyzing F1 timing and telemetry data. 
 
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/32988819/135612001-19285022-28a2-422e-a137-c48d43771c82.gif)
+
+
 ## Setup
 
 ```bash
