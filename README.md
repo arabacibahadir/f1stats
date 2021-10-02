@@ -6,7 +6,7 @@ and analyzing F1 timing and telemetry data.
 
 
 ## Setup
-
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install libraries.
 ```bash
 pip install fastf1
 pip install matplotlib
