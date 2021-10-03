@@ -17,7 +17,7 @@ pip install pandas
 ## Usage
 Which two drivers do you want to choose you can write as a **driver1** and **driver2**.
 
-For example, we will choose _Bottas_ and _Hamilton_.
+For example, if you want to choose _Bottas_ and _Hamilton_.
 ```bash
 driver1 = 'BOT' 
 driver2 = 'HAM'
