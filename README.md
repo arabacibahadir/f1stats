@@ -47,7 +47,7 @@ The Fast-F1 developer recommends using **cache**. From his own [document](https:
 
 
 ```bash
-ff1.Cache.enable_cache(r'path/to/folder/for/cache') # replace with your cache directory
+ff1.Cache.enable_cache(r'path/to/folder/for/cache') # Replace with your cache directory
 ```
 
 
