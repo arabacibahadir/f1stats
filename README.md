@@ -53,6 +53,8 @@ ff1.Cache.enable_cache(r'path/to/folder/for/cache') # Replace with your cache di
 
 A fuzzy match is performed to find the most likely event for the provided name (e.g. 'Bahrain').
 
+
+
 ```bash
 race = ff1.get_session(2021, 'Zandvoort', 'R')  # 'R' <- 'FP1', 'FP2', 'FP3', 'Q', 'SQ' or 'R'
 # FP1 : Free Practice 1
@@ -77,7 +79,7 @@ def qualifying():  # Fastest lap
 
 ## Compatibility
 
-Data is applicable for the 2018 to 2021 seasons. Fast-F1 uses data from F1's live timing service.
+Data is available for the 2018 to 2021 seasons. Fast-F1 uses data from F1's live timing service.
 
 ## Screenshots
 
