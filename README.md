@@ -57,7 +57,7 @@ A fuzzy match is performed to find the most likely event for the provided name (
 
 
 ```bash
-race = ff1.get_session(2021, 'Zandvoort', 'R')  # 'R' <- 'FP1', 'FP2', 'FP3', 'Q', 'SQ' or 'R'
+race = ff1.get_session(2021, 'Zandvoort', 'R')  # 'FP1', 'FP2', 'FP3', 'Q', 'SQ' or 'R'
 # FP1 : Free Practice 1
 # FP2 : Free Practice 2
 # FP3 : Free Practice 3
