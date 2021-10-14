@@ -53,7 +53,6 @@ def main():
             ax[i].plot(telemetry_driver1['Distance'], telemetry_driver1[data[i]], label=driver1)
             ax[i].plot(telemetry_driver2['Distance'], telemetry_driver2[data[i]], label=driver2)
             ax[i].set(ylabel=data[i])
-
         for a in ax.flat:
             a.label_outer()
         ax[0].legend()
