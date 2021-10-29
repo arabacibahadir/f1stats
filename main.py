@@ -103,7 +103,7 @@ def main():
 
 
 if __name__ == '__main__':
-    driver1 = 'BOT'
+    driver1 = 'BOT' # Pick drivers
     driver2 = 'HAM'
     ff1.Cache.enable_cache(r'C:\Users\bahadir\PycharmProjects\f1stats\cache')
     race = ff1.get_session(2021, 'Zandvoort', 'R')
