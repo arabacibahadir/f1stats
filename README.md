@@ -7,7 +7,7 @@ and analyzing F1 timing and telemetry data.
 
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/32988819/138598068-a7c6f57a-bff4-481b-8804-6515e4293ee7.gif)
 
-
+ 
 
 ## Setup
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install libraries.
