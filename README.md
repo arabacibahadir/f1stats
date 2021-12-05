@@ -1,6 +1,6 @@
 # f1stats 
 Formula 1 driver comparison and analyzing tool. 
-**f1stats** is using [Fast-F1]( https://github.com/theOehrly/Fast-F1#fast-f1 ) core for race and driver analysis.    
+**f1stats** is using [Fast-F1]( https://github.com/theOehrly/Fast-F1#fast-f1 ) core for race and driver analysis. 
 
 The [Fast-F1](https://github.com/theOehrly/Fast-F1#fast-f1 ) core is a collection of functions and data objects for accessing
 and analyzing F1 timing and telemetry data. 
