@@ -103,6 +103,7 @@ def main():
 
 
 if __name__ == '__main__':
+    # Example
     driver1 = 'BOT' 
     driver2 = 'HAM' 
     ff1.Cache.enable_cache(r'C:\Users\bahadir\PycharmProjects\f1stats\cache')
