@@ -1,5 +1,4 @@
 import fastf1 as ff1
-from fastf1 import plotting
 from fastf1.core import Laps
 from matplotlib import pyplot as plt
 import numpy as np
