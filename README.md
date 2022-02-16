@@ -29,6 +29,7 @@ driver2 = 'HAM'
 
 You can also choose all other drivers.
 ```bash
+# 2020 season
 D_LOOKUP = [[44, 'HAM', 'Mercedes'], [77, 'BOT', 'Mercedes'],
             [55, 'SAI', 'Ferrari'], [16, 'LEC', 'Ferrari'],
             [33, 'VER', 'Red Bull'], [11, 'PER', 'Red Bull'],  #Ver could be 1 for 2022 season
