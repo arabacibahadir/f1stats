@@ -19,7 +19,6 @@ pip install pandas
 ```
 
 ## Usage
-Which two drivers do you want to compare you can write as a **driver1** and **driver2**.
 
 For example, if you want to compare _Bottas_ and _Hamilton_.
 ```bash
