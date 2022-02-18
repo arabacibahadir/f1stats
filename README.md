@@ -31,7 +31,7 @@ You can also choose all other drivers.
 # 2020 season
 D_LOOKUP = [[44, 'HAM', 'Mercedes'], [77, 'BOT', 'Mercedes'],
             [55, 'SAI', 'Ferrari'], [16, 'LEC', 'Ferrari'],
-            [33, 'VER', 'Red Bull'], [11, 'PER', 'Red Bull'],  #Ver could be 1 for 2022 season
+            [33, 'VER', 'Red Bull'], [11, 'PER', 'Red Bull'],  # Ver could be 1 for 2022 season
             [3, 'RIC', 'McLaren'], [4, 'NOR', 'McLaren'],
             [5, 'VET', 'Aston Martin'], [18, 'STR', 'Aston Martin'],
             [14, 'ALO', 'Alpine'], [31, 'OCO', 'Alpine'],
