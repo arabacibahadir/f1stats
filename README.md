@@ -45,7 +45,7 @@ D_LOOKUP = [[44, 'HAM', 'Mercedes'], [77, 'BOT', 'Mercedes'],
 The Fast-F1 developer recommends using **cache**. From this [document](https://theoehrly.github.io/Fast-F1/examples/index.html#example-plot): 
 
 
-> It is not necessary to enable the usage of the cache but it is **highly recommended**. Simply provide the path to some empty folder on **your** system. Using the cache will greatly speed up loading of the data.
+> It is not necessary to enable the usage of the cache but it is **highly recommended**. Simply provide the path to some empty folder on **your** system. Using the cache will greatly speed up loading of the data. 
 
 
 ```bash
