@@ -109,7 +109,6 @@ if __name__ == '__main__':
     # Example
     driver1 = 'BOT' 
     driver2 = 'HAM' 
-    ff1.Cache.enable_cache(r'C:\Users\bahadir\PycharmProjects\f1stats\cache')
     race = ff1.get_session(2021, 'Zandvoort', 'R')
     laps = race.load_laps(with_telemetry=True)
     main()
