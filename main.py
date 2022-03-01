@@ -109,6 +109,7 @@ if __name__ == '__main__':
     # Example
     driver1 = 'BOT' 
     driver2 = 'HAM' 
+    ff1.Cache.enable_cache(r'path/to/folder/for/cache') # Replace with your cache directory
     race = ff1.get_session(2021, 'Zandvoort', 'R')
     laps = race.load_laps(with_telemetry=True)
     main()
