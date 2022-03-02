@@ -62,7 +62,7 @@ def main():
         fig.subplots_adjust(left=0.095, bottom=0.04, right=1, top=0.96, wspace=None, hspace=None)
 
     def compare(*args):  # Two drivers comparison
-        fig, ax = plt.subplots()
+        fig, ax = plt.subplots()  # Draw plots
         ax.plot(laps_driver1['LapNumber'], laps_driver1['LapTime'], color='red')
         ax.plot(laps_driver2['LapNumber'], laps_driver2['LapTime'], color='cyan')
         ax.set_title(f"Red:{driver1} vs Cyan:{driver2}")
