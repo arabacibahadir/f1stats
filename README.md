@@ -68,7 +68,7 @@ race = ff1.get_session(2021, 'Zandvoort', 'R')  # 'FP1', 'FP2', 'FP3', 'Q', 'SQ'
 
 ```
 
-> 'SQ' stands for Sprint Qualifying which is only available in the 2021 season. Note that 'FP3' does not exist on these race weekends. 
+> 'SQ' stands for Sprint Qualifying which is only available in the 2021 season. Note that 'FP3' does not exist on these race weekends. 2022 will be updated.
 
 
 ## Functions
