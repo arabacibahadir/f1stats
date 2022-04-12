@@ -48,7 +48,6 @@ def main():
         weather_data.reset_index(drop=True)
 
     def gas(*args):  # Car data
-
         data = ['RPM', 'Speed', 'Throttle', 'Brake', 'nGear', 'DRS']
         fig, ax = plt.subplots(len(data), figsize=(8, 8))
         fig.suptitle("Fastest Race Lap Telemetry Comparison")
@@ -61,7 +60,7 @@ def main():
         ax[0].legend()
         fig.subplots_adjust(left=0.095, bottom=0.04, right=1, top=0.96, wspace=None, hspace=None)
 
-    def compare(*args):  # Two drivers comparison
+    def compare(*args):
         fig, ax = plt.subplots()  # Draw plots
         ax.plot(laps_driver1['LapNumber'], laps_driver1['LapTime'], color='red')
         ax.plot(laps_driver2['LapNumber'], laps_driver2['LapTime'], color='cyan')
