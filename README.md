@@ -67,7 +67,7 @@ race = ff1.get_session(2021, 'Zandvoort', 'R')  # 'FP1', 'FP2', 'FP3', 'Q', 'SQ'
 
 ```
 
-> 'SQ' stands for Sprint Qualifying which is only available in the 2021 season. Note that 'FP3' does not exist on these race weekends. 2022 will be updated.
+> 'SQ' stands for Sprint Qualifying which is only available in the 2021 season. Note that 'FP3' does not exist on these race weekends.
 
 
 ## Functions
@@ -80,7 +80,7 @@ def qualifying():  # Fastest lap
 
 ## Compatibility
 
-Data is available for the 2018 to 2021 seasons. Fast-F1 uses data from F1's live timing service.
+Data is available for the 2018 to 2022 seasons. Fast-F1 uses data from F1's live timing service.
 
 ## Screenshots
 
