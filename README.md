@@ -18,7 +18,7 @@ pip install pandas
 ```
 
 ## Usage
-
+[Example](https://theoehrly.github.io/Fast-F1/examples/index.html#example-plot) plots.
 For example, if you want to compare _Bottas_ and _Hamilton_.
 ```bash
 driver1 = 'BOT' 
