@@ -9,18 +9,18 @@ from timple.timedelta import strftimedelta
 
 def main():
     plotting.setup_mpl()
-    # Picking the laps of the drivers.
+    # Picking the laps of the drivers
     laps_driver1 = laps.pick_driver(driver1)
     laps_driver2 = laps.pick_driver(driver2)
-    # This is picking the fastest lap of the driver.
+    # This is picking the fastest lap of the driver
     fastest_driver1 = laps_driver1.pick_fastest()
     fastest_driver2 = laps_driver2.pick_fastest()
-    # Adding the distance from the start of the lap to the current position of the car.
+    # Adding the distance from the start of the lap to the current position of the car
     telemetry_driver1 = fastest_driver1.get_car_data().add_distance()
     telemetry_driver2 = fastest_driver2.get_car_data().add_distance()
 
     def track():  # Track layout - Fastest Lap Gear Shift Visualization
-        # A function that is used to plot the fastest lap of the race.
+        # A function that is used to plot the fastest lap of the race
         lap = laps.pick_fastest()
         tel = lap.get_telemetry()
         x = np.array(tel['X'].values)
