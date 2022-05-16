@@ -105,7 +105,6 @@ def main():
 
 
 if __name__ == '__main__':
-    # Example
     driver1 = 'BOT' 
     driver2 = 'HAM' 
     ff1.Cache.enable_cache(r'path/to/folder/for/cache') # Replace with your cache directory
