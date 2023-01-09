@@ -67,9 +67,6 @@ race = ff1.get_session(2021, 'Zandvoort', 'R')  # 'FP1', 'FP2', 'FP3', 'Q', 'SQ'
 
 ```
 
-> 'SQ' stands for Sprint Qualifying, which is only available for the 2021 season. Note that 'FP3' does not exist on these race weekends.
-
-
 ## Functions
 ```bash
 def track():  # Track layout - Fastest Lap Gear Shift Visualization
