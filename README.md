@@ -77,7 +77,7 @@ def qualifying():  # Fastest lap
 
 ## Compatibility
 
-Data is available for the 2018 to 2022 seasons. Fast-F1 uses data from F1's live timing service.
+Data is available for the 2018 to 2023 seasons. Fast-F1 uses data from F1's live timing service.
 
 ## Screenshots
 
