@@ -12,7 +12,6 @@ def main():
     # Picking the laps of the drivers
     laps_driver1 = laps.pick_driver(driver1)
     laps_driver2 = laps.pick_driver(driver2)
-    # This is picking the fastest lap of the driver
     fastest_driver1 = laps_driver1.pick_fastest()
     fastest_driver2 = laps_driver2.pick_fastest()
     # Adding the distance from the start of the lap to the current position of the car
